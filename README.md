@@ -33,7 +33,7 @@ Follow instructions to authenticate gee. Once the account has been authenticated
 
 Installing gdal
 ---------------------
-Installing gdal is a huge pain. The following works for me but your millage may vary. 
+Installing gdal can be challenging. The following works for me but your millage may vary. 
 Ensure that you have the latest version of the Microsoft Visual C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/, download and install Visual Studio Build Tools. This will take a while. 
 
 Then go back to Anaconda Prompt and install gdal.
