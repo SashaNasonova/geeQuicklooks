@@ -12,8 +12,8 @@ Downloads scaled, true-colour RGBs (8-bit) in tif format.
 #####
 #Define Parameters
 rerun = False #is this a rerun? If re-running make sure to delete any incomplete folders, which will be the most recent one
-vectors = r"C:\QL\vectors\test_data.shp"
-outfolder = r'C:\QL\output'
+vectors = r"C:\test\vectors\test_data.shp"
+outfolder = r'C:\test\output'
 id_col = 'Obj_ID' #unique ID Column
 t1_col = 'T1' #start date column 
 t2_col = 'T2' #end date column
