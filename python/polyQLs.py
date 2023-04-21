@@ -138,7 +138,7 @@ def main(p):
     def add_sensor(im):return(im.set("system:sensor", "S2"))
     def common_names(image):return(image.select(['B2','B3','B4','cloudmsk'],['blue','green','red','cloudmsk']))
     
-    s2_list = col.toList(col.size())
+    s2_list = col.toList(10000)
     s2_mosaic_col = runDateMosaic(s2_list)
     s2_mosaic_col_cld = s2_mosaic_col.map(get_cloud_s2).map(common_names).map(scale_s2).map(add_sensor)
     #s2_md = s2_mosaic_col_cld.getInfo()
@@ -147,7 +147,7 @@ def main(p):
     def add_sensor(im):return(im.set("system:sensor", "L8"))
     def common_names(image):return(image.select(['SR_B2','SR_B3','SR_B4','cloudmsk'],['blue','green','red','cloudmsk']))
     
-    l8_list = col.toList(col.size())
+    l8_list = col.toList(10000)
     l8_mosaic_col = runDateMosaic(l8_list)
     l8_mosaic_col_cld = l8_mosaic_col.map(get_cloud_landsat).map(common_names).map(scale_landsat).map(add_sensor)
     #l8_md = l8_mosaic_col_cld.getInfo()
@@ -157,7 +157,7 @@ def main(p):
     def add_sensor(im):return(im.set("system:sensor", "L9"))
     def common_names(image):return(image.select(['SR_B2','SR_B3','SR_B4','cloudmsk'],['blue','green','red','cloudmsk']))
     
-    l9_list = col.toList(col.size())
+    l9_list = col.toList(10000)
     l9_mosaic_col = runDateMosaic(l9_list)
     l9_mosaic_col_cld = l9_mosaic_col.map(get_cloud_landsat).map(common_names).map(scale_landsat).map(add_sensor)
     #l9_md = l9_mosaic_col_cld.getInfo()
