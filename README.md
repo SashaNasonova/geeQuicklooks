@@ -45,7 +45,7 @@ from osgeo import gdal
 ```
 If this doesn't work for you, there are a number of solutions presented in various forums and articles. 
 
-Warning! Some will suggest to disable your SSL certificate verification to install gdal. You can do this, but I have learned that this is a "play stupid games, win stupid prizes" kind of situation. You may break other packages that require SSL verification and/or upset your IT department. 
+Warning! Some will suggest to disable your SSL certificate verification to install gdal. You can do this, but you may break other packages that require SSL verification and/or upset your IT department. 
 
 Vector file preparation
 ---------------------
