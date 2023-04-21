@@ -62,8 +62,8 @@ Executing Google Earth Engine Script
 Open up polyQLs.py script and edit lines 14 - 19 to match your data. See example below for the attached test data.
 ```
 rerun = FALSE
-vectors = r"C:\QL\vectors\test_data.shp"
-outfolder = r'C:\QL\output'
+vectors = r"C:\test\vectors\test_data.shp"
+outfolder = r'C:\test\output'
 id_col = 'Obj_ID'
 t1_col = 'T1'  
 t2_col = 'T2'
