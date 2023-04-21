@@ -15,7 +15,6 @@ Then, activate the newly created environment and install geemap and geopandas.
 conda activate gee_py
 conda install -n base mamba -c conda-forge
 mamba create -n gee geemap geopandas localtileserver python -c conda-forge
-
 ```
 To learn more about the amazing geemap package please visit the following github page (https://github.com/gee-community/geemap).
 
