@@ -1,5 +1,5 @@
 # geeQuicklooks
-Generate quicklooks for a pre-defined vector file that contains start and end date information. Relies on Python Google Earth Engine API and geemap package. 
+Generates quicklooks for a pre-defined vector file that contains start and end date information. Relies on Python Google Earth Engine API and geemap package. 
 
 Installation
 ---------------------
