@@ -5,15 +5,13 @@ Installation
 ---------------------
 Install Anaconda (https://docs.anaconda.com/free/anaconda/install/windows/).
 
-In Anaconda Prompt, create a new virtual environment.
+In Anaconda Prompt, install mamba (a package manager to your base environment). Sometimes this take a while.
 ```
-conda create --name gee_py
+conda install -n base mamba -c conda-forge
 ```
 
-Then, activate the newly created environment and install geemap and geopandas.
+Then, create a new environment called gee and install geemap and supporting packages
 ```
-conda activate gee_py
-conda install -n base mamba -c conda-forge
 mamba create -n gee geemap geopandas localtileserver python -c conda-forge
 ```
 To learn more about the amazing geemap package please visit the following github page (https://github.com/gee-community/geemap).
@@ -78,6 +76,13 @@ python <path to polyQLs.py>
 Making maps in R
 ---------------------
 This script was written specifically for visualizing the above satellite imagery with various vector data and may be of limited utility for others.
+
+
+Many thanks to the open source community!
+---------------------
+Wu, Q., (2020). geemap: A Python package for interactive mapping with Google Earth Engine. The Journal of Open Source Software, 5(51), 2305. https://doi.org/10.21105/joss.02305
+
+https://github.com/rspatial/terra
 
 
 
