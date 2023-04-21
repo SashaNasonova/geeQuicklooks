@@ -73,17 +73,6 @@ In Anaconda run:
 python <path to polyQLs.py>
 ```
 
-Making maps in R
----------------------
-This script was written specifically for visualizing the above satellite imagery with various vector data and may be of limited utility for others.
-
-
 Many thanks to the open source community!
 ---------------------
 Wu, Q., (2020). geemap: A Python package for interactive mapping with Google Earth Engine. The Journal of Open Source Software, 5(51), 2305. https://doi.org/10.21105/joss.02305
-
-https://github.com/rspatial/terra
-
-
-
-
