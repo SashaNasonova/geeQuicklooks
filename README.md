@@ -25,7 +25,7 @@ python
 import ee 
 ee.Authenticate()
 ```
-Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to use gee.
+Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go.
 
 Installing gdal
 ---------------------
