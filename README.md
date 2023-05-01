@@ -70,6 +70,7 @@ t2_col = 'T2'
 ```
 In Anaconda run:
 ```
+conda activate gee
 python <path to polyQLs.py>
 ```
 
