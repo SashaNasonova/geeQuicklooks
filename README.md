@@ -7,22 +7,16 @@ Install Anaconda (https://docs.anaconda.com/free/anaconda/install/windows/).
 
 In Anaconda Prompt, install mamba (a package manager to your base environment). Sometimes this take a while.
 ```
-conda install -n base mamba -c conda-forge
+conda create -n gee
+conda activate gee
+conda install mamba -c conda-forge
 ```
 
 Then, create a new environment called gee and install geemap and supporting packages
 ```
-mamba create -n gee geemap geopandas localtileserver python -c conda-forge
+mamba install geemap geopandas localtileserver python -c conda-forge
 ```
 To learn more about the amazing geemap package please visit the following github page (https://github.com/gee-community/geemap).
-
-Authenticate GEE
-```
-python
-import ee 
-ee.Authenticate()
-```
-Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go.
 
 Installing gdal
 ---------------------
@@ -38,12 +32,18 @@ In my case it was:
 ```
 pip install C:\Users\Downloads\GDAL-3.4.3-cp311-cp311-win_amd64.whl.
 ```
-Check that gdal is functioning
+Check that gdal is functioning and authenticate GEE
 ```
 python
 from osgeo import gdal
+import ee 
+ee.Authenticate()
 ```
-If this doesn't work for you, there are a number of solutions presented in various forums and articles. 
+Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go. To get out of the python commands press Ctrl + Z.
+
+A note on gdal
+---------------------
+If the above installation doesn't work for you, there are a number of solutions presented in various forums and articles. 
 
 Warning! Some will suggest to disable your SSL certificate verification to install gdal. You can do this, but you may break other packages that require SSL verification and/or upset your IT department. 
 
