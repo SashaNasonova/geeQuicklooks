@@ -22,7 +22,7 @@ Install gcloud CLI
 ---------------------
 Follow the instructions: https://cloud.google.com/sdk/docs/install to install Google Cloud CLI.
 
-Installing gdal
+Install gdal
 ---------------------
 Installing gdal can be challenging. The following works for me but your millage may vary. 
 
