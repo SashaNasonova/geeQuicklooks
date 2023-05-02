@@ -43,7 +43,7 @@ from osgeo import gdal
 import ee 
 ee.Authenticate()
 ```
-Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go. To get out of the python commands press Ctrl + Z.
+Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go. To get out of the python commands press Ctrl + Z or exit().
 
 A note on gdal
 ---------------------
