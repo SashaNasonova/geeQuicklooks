@@ -18,6 +18,10 @@ mamba install geemap geopandas localtileserver python -c conda-forge
 ```
 To learn more about the amazing geemap package please visit the following github page (https://github.com/gee-community/geemap).
 
+Install gcloud CLI
+---------------------
+Follow the instructions: https://cloud.google.com/sdk/docs/install to install Google Cloud CLI.
+
 Installing gdal
 ---------------------
 Installing gdal can be challenging. The following works for me but your millage may vary. 
