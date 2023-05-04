@@ -3,6 +3,8 @@ Generates quicklooks for a pre-defined vector file that contains start and end d
 
 Installation
 ---------------------
+Sign up for a Google Earth Engine account if you don't already have one (https://signup.earthengine.google.com/). 
+
 Install Anaconda (https://docs.anaconda.com/free/anaconda/install/windows/).
 
 In Anaconda Prompt, install mamba (a package manager to your base environment). Sometimes this take a while.
@@ -20,7 +22,7 @@ To learn more about the amazing geemap package please visit the following github
 
 Install gcloud CLI
 ---------------------
-Follow the instructions: https://cloud.google.com/sdk/docs/install to install Google Cloud CLI.
+Follow the instructions: https://cloud.google.com/sdk/docs/install to install Google Cloud CLI. Use the same email address as for Google Earth Engine.
 
 Install gdal
 ---------------------
