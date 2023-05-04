@@ -46,8 +46,14 @@ pip install C:\Users\Downloads\GDAL-3.4.3-cp311-cp311-win_amd64.whl.
 Check that gdal is functioning and authenticate GEE
 ```
 python
+```
+```
 from osgeo import gdal
+```
+```
 import ee 
+```
+```
 ee.Authenticate()
 ```
 Follow instructions to authenticate gee, you will be lead to a webpage. Once the account has been authenticated you should be ready to go. The message should read "You are now authenticated with gCloud CLI". To get out of the python commands in Anaconda press Ctrl + Z or exit().
