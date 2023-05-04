@@ -21,7 +21,7 @@ To learn more about the amazing geemap package please visit the following github
 
 Install gcloud CLI
 ---------------------
-Follow the instructions: https://cloud.google.com/sdk/docs/install to install Google Cloud CLI. Use the same email address as for Google Earth Engine.
+Follow the instructions from https://cloud.google.com/sdk/docs/install to install Google Cloud CLI. Use the same email address as for Google Earth Engine.
 
 Install gdal
 ---------------------
