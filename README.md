@@ -43,16 +43,19 @@ In my case it was:
 ```
 pip install C:\Users\Downloads\GDAL-3.4.3-cp311-cp311-win_amd64.whl.
 ```
-Check that gdal is functioning and authenticate GEE
+Open python, check that gdal is functioning and authenticate GEE:
 ```
 python
 ```
+Import gdal:
 ```
 from osgeo import gdal
 ```
+Import GEE:
 ```
 import ee 
 ```
+And authenticate GEE.
 ```
 ee.Authenticate()
 ```
