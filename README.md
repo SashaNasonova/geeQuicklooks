@@ -7,14 +7,13 @@ Sign up for a Google Earth Engine account if you don't already have one (https:/
 
 Install Anaconda (https://docs.anaconda.com/free/anaconda/install/windows/).
 
-In Anaconda Prompt, install mamba (a package manager to your base environment). Sometimes this take a while.
+In Anaconda Prompt, create a new environment called gee, activate it and install mamba (a package manager). Sometimes this take a while.
 ```
 conda create -n gee
 conda activate gee
 conda install mamba -c conda-forge
 ```
-
-Then, create a new environment called gee and install geemap and supporting packages
+Using mamba install geemap and supporting packages from the conda-forge channel.
 ```
 mamba install geemap geopandas localtileserver python -c conda-forge
 ```
