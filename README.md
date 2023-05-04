@@ -43,7 +43,7 @@ In my case it was:
 ```
 pip install C:\Users\Downloads\GDAL-3.4.3-cp311-cp311-win_amd64.whl.
 ```
-Open python, check that gdal is functioning and authenticate GEE:
+Open python:
 ```
 python
 ```
