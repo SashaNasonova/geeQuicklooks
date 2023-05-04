@@ -77,7 +77,7 @@ The script expects a shapefile (.shp) with one or more polygons that contains:
 
 Please see the test data for more information.
 
-Executing Google Earth Engine Script
+Executing script
 ---------------------
 Open up polyQLs.py script and edit lines 14 - 19 to match your data. See example below for the attached test data.
 ```
