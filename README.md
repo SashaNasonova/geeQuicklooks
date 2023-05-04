@@ -50,7 +50,7 @@ from osgeo import gdal
 import ee 
 ee.Authenticate()
 ```
-Follow instructions to authenticate gee. Once the account has been authenticated you should be ready to go. To get out of the python commands press Ctrl + Z or exit().
+Follow instructions to authenticate gee, you will be lead to a webpage. Once the account has been authenticated you should be ready to go. The message should read "You are now authenticated with gCloud CLI". To get out of the python commands in Anaconda press Ctrl + Z or exit().
 
 A note on gdal
 ---------------------
