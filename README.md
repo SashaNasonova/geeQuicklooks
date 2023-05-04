@@ -35,7 +35,7 @@ Installing gdal can be challenging. The following works for me but your millage 
 
 Go to Chrisoph Gohlke's website (https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) and download the appropriate gdal wheels (e.g. GDAL‑3.4.3‑cp311‑cp311‑win_amd64.whl) to your machine. 
 
-Then go back to Anaconda Prompt and install gdal.
+Then go back to Anaconda Prompt, make sure that you are in the gee environment (conda activate gee) and install gdal into the gee environment.
 ```
 pip install <path to wheels> 
 ```
