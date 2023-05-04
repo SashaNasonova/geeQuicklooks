@@ -88,9 +88,12 @@ id_col = 'Obj_ID'
 t1_col = 'T1'  
 t2_col = 'T2'
 ```
-In Anaconda run:
+In Anaconda activate the gee virtual environment:
 ```
 conda activate gee
+```
+And run the edited script.
+```
 python <path to polyQLs.py>
 ```
 
