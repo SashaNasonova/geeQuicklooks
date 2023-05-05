@@ -29,6 +29,15 @@ Install gcloud CLI
 ---------------------
 Follow the instructions from https://cloud.google.com/sdk/docs/install to install Google Cloud CLI. Use the same email address as for Google Earth Engine.
 
+You may need to independently authorize gcloud in Anaconda:
+```
+gcloud auth login
+```
+To check which account is being used, in Anaconda type in
+```
+gcloud auth list
+```
+
 Install gdal
 ---------------------
 Installing gdal can be challenging. The following works for me but your millage may vary. 
