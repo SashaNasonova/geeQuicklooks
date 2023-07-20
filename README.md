@@ -1,6 +1,17 @@
 # geeQuicklooks
 Generates quicklooks for a pre-defined vector file that contains start and end date information. Relies on Python Google Earth Engine API and geemap package. Requires a Google Earth Engine account (https://signup.earthengine.google.com/). 
 
+Methodology
+---------------------
+1. Search for Sentinel-2 SR imagery for a specific area and pre-defined time range
+2. Mask clouds
+3. Multiply by 0.0001 and calculate median of the entire collection
+4. Apply a stretch and visualization parameters 
+5. Scale, valid data data range (1-255, no data is 0)
+6. Convert to 8-bit
+7. Export true color or false colour RGB in geotiff format as tiles
+8. Mosaic tiles (once downloaded)
+
 Installation
 ---------------------
 Sign up for a Google Earth Engine account if you don't already have one (https://signup.earthengine.google.com/). 
